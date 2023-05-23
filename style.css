@@ -166,14 +166,29 @@ footer p {
   }
 
   form {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px
+    padding: 10px;
+    gap: 5px
   }
 
   form div {
-    margin-right: 30px;
     flex-direction: column;
+    width: 20%;
+  }
+
+  form input {
+    width: 70px;
+  }
+
+  form select {
+    width: 70px;
+  }
+
+  form button {
+    width: 100%;
+    font-size: 16px;
   }
 
   .group {
@@ -187,8 +202,12 @@ footer p {
   }
 
   #host-text {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 36px;
+    margin-top: 20px;
   }
 
 }
