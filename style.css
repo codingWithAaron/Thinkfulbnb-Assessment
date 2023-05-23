@@ -170,21 +170,22 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    gap: 5px
+    gap: 5px;
+    flex-wrap: wrap;
   }
 
   form div {
     flex-direction: column;
-    width: 20%;
+    contain: content;
   }
 
-  form input {
+  /* form input {
     width: 70px;
   }
 
   form select {
     width: 70px;
-  }
+  } */
 
   form button {
     width: 100%;
@@ -194,22 +195,19 @@ footer p {
   .group {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .group .item p {
-    margin-top: 100px;
-  }
-
-  #host-text {
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    gap: 10px;
   }
 
   .logo {
     font-size: 36px;
     margin-top: 20px;
+  }
+
+}
+
+@media all and (max-width: 380px) {
+  .logo {
+    font-size: 50px;
   }
 
 }
