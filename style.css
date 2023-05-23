@@ -203,6 +203,8 @@ footer p {
 
   #host-text {
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   .logo {
